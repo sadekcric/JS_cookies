@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS cookies</title>
+</head>
+<body>
+  <div>
+    <input type="button" value="Set name cookies" onclick="setCookies('username','Sadek', 3)">
+  </div>
+
+  <div>
+    <input type="button" value="Set username cookies" onclick="setCookies('name','Sadekur Rahman', 2)">
+  </div>
+
+  <div>
+    <input type="button" value="Get name cookies" onclick="alert(getCookie('username'))">
+  </div>
+
+  <div>
+    <input type="button" value="Get username cookies" onclick="alert(getCookie('name'))">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
